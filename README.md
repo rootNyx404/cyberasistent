@@ -411,7 +411,7 @@ Perfect for:
 ## 1️⃣ Clone
 
 ```bash
-git clone <YOUR_REPOSITORY_URL>
+git clone https://github.com/rootNyx404/cyberasistent.git
 cd cyberasistent
 ```
 
