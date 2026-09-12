@@ -30,15 +30,42 @@ from pathlib import Path
 from media_extractor.analyzer import analyze_file, analyze_directory, to_csv
 
 
-BANNER = r"""
+# ── ANSI colour palette ────────────────────────────────────────────────────────
+RESET   = "\033[0m"
+RED     = "\033[91m"
+GREEN   = "\033[92m"
+YELLOW  = "\033[93m"
+BLUE    = "\033[94m"
+MAGENTA = "\033[95m"
+CYAN    = "\033[96m"
+WHITE   = "\033[97m"
+BOLD    = "\033[1m"
+DIM     = "\033[2m"
+# ──────────────────────────────────────────────────────────────────────────────
+
+
+BANNER = (
+    f"{CYAN}"
+    r"""
  ███╗   ███╗███████╗██████╗ ██╗ █████╗     ███████╗██╗  ██╗████████╗
  ████╗ ████║██╔════╝██╔══██╗██║██╔══██╗    ██╔════╝╚██╗██╔╝╚══██╔══╝
  ██╔████╔██║█████╗  ██║  ██║██║███████║    █████╗   ╚███╔╝    ██║
  ██║╚██╔╝██║██╔══╝  ██║  ██║██║██╔══██║    ██╔══╝   ██╔██╗    ██║
  ██║ ╚═╝ ██║███████╗██████╔╝██║██║  ██║    ███████╗██╔╝ ██╗   ██║
- ╚═╝     ╚═╝╚══════╝╚═════╝ ╚═╝╚═╝  ╚═╝    ╚══════╝╚═╝  ╚═╝   ╚═╝
-          Media Metadata Extractor  |  cyberasistent
+ ╚═╝     ╚═╝╚══════╝╚═════╝ ╚═╝╚═╝  ╚═╝    ╚══════╝╚═╝  ╚═╝   ╚═╝"""
+    + f"""
+{RESET}
+{MAGENTA}{BOLD}          Media Metadata Extractor  |  cyberasistent{RESET}
+{CYAN}{'═' * 68}{RESET}
+  {YELLOW}🛡️  Tool     :{RESET} {WHITE}Media Metadata Extractor — Deep Forensics CLI{RESET}
+  {GREEN}👨‍💻 Built by :{RESET} {BOLD}{MAGENTA}Arup Halder{RESET}
+  {BLUE}🐙 GitHub   :{RESET} {CYAN}https://github.com/rootNyx404{RESET}
+  {RED}⚡ Version  :{RESET} {WHITE}v1.0.0{RESET}
+{CYAN}{'═' * 68}{RESET}
+{DIM}{YELLOW}        [ All rights reserved © Arup Halder 2024 ]{RESET}
+{CYAN}{'═' * 68}{RESET}
 """
+)
 
 
 def parse_args():
@@ -76,39 +103,39 @@ def main():
 
     if args.dir:
         if not target.is_dir():
-            print(f"[ERROR] '{target}' is not a directory.", file=sys.stderr)
+            print(f"{RED}[ERROR]{RESET} '{target}' is not a directory.", file=sys.stderr)
             sys.exit(1)
-        _print(f"[*] Scanning directory: {target} (recursive={args.recursive}, workers={args.workers})",
+        _print(f"{BLUE}[*]{RESET} Scanning directory: {target} "
+               f"(recursive={args.recursive}, workers={args.workers})",
                args.quiet)
         result = analyze_directory(target, recursive=args.recursive, max_workers=args.workers)
-        _print(f"[+] Found {result['total_files']} media files | "
+        _print(f"{GREEN}[+]{RESET} Found {result['total_files']} media files | "
                f"Total size: {result['total_size_human']} | "
                f"Anomalies in: {result['files_with_anomalies'] or 'none'}",
                args.quiet)
 
-        # CSV export
         if args.csv_output:
             csv_data = to_csv(result["files"])
             Path(args.csv_output).write_text(csv_data, encoding="utf-8")
-            _print(f"[+] CSV saved to: {args.csv_output}", args.quiet)
+            _print(f"{GREEN}[+]{RESET} CSV saved to: {args.csv_output}", args.quiet)
 
     else:
-        _print(f"[*] Analyzing: {target}", args.quiet)
+        _print(f"{BLUE}[*]{RESET} Analyzing: {target}", args.quiet)
         result = analyze_file(target)
         mtype = result.get("media_type", "?")
         anomalies = result.get("anomalies", [])
-        _print(f"[+] Type: {mtype} | Anomalies: {anomalies or 'none'}", args.quiet)
+        _print(f"{GREEN}[+]{RESET} Type: {mtype} | Anomalies: {anomalies or 'none'}", args.quiet)
 
         if args.csv_output:
             csv_data = to_csv([result])
             Path(args.csv_output).write_text(csv_data, encoding="utf-8")
-            _print(f"[+] CSV saved to: {args.csv_output}", args.quiet)
+            _print(f"{GREEN}[+]{RESET} CSV saved to: {args.csv_output}", args.quiet)
 
     json_output = json.dumps(result, indent=2, ensure_ascii=False, default=str)
 
     if args.output:
         Path(args.output).write_text(json_output, encoding="utf-8")
-        _print(f"[+] JSON saved to: {args.output}", args.quiet)
+        _print(f"{GREEN}[+]{RESET} JSON saved to: {args.output}", args.quiet)
     else:
         print(json_output)
 
