@@ -1,0 +1,9 @@
+# Core
+Pillow>=10.0.0
+exifread>=3.0.0
+mutagen>=1.47.0
+pymediainfo>=6.0.1
+
+# Optional but recommended
+# opencv-python>=4.8.0   # advanced video frame analysis
+# numpy>=1.24.0          # faster waveform/histogram processing
