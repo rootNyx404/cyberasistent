@@ -1,123 +1,208 @@
+<div align="center">
+
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:ff0000,20:ff00ff,40:7b2cff,60:0066ff,80:00ffff,100:00ff88&height=250&section=header&text=CYBERASISTENT&fontSize=58&fontColor=ffffff&animation=twinkling&fontAlignY=38&desc=MEDIA%20METADATA%20INTELLIGENCE&descAlignY=62&descSize=20" width="100%"/>
+
 # 🛡️ CYBERASISTENT
 
 ### 🚀 Media Metadata Extractor — Powerful Edition
 
-<p align="center">
-  <img src="https://img.shields.io/badge/CYBERASISTENT-Media%20Intelligence-00FFFF?style=for-the-badge&logo=hackthebox&logoColor=white" alt="Cyberasistent">
-  <img src="https://img.shields.io/badge/Python-3.x-7B2CFF?style=for-the-badge&logo=python&logoColor=white" alt="Python">
-  <img src="https://img.shields.io/badge/Security-Metadata%20Analysis-FF00CC?style=for-the-badge&logo=shield&logoColor=white" alt="Security">
+<p>
+<img src="https://img.shields.io/badge/CYBERASISTENT-Media%20Intelligence-00FFFF?style=for-the-badge&logo=hackthebox&logoColor=white">
+<img src="https://img.shields.io/badge/Python-3.x-7B2CFF?style=for-the-badge&logo=python&logoColor=white">
+<img src="https://img.shields.io/badge/Security-Metadata%20Analysis-FF00CC?style=for-the-badge&logo=shield&logoColor=white">
+<img src="https://img.shields.io/badge/Digital-Forensics-FF003C?style=for-the-badge&logo=kalilinux&logoColor=white">
 </p>
 
-<p align="center">
+<br>
+
+### ⚡ `ANALYZE • EXTRACT • VERIFY • INVESTIGATE`
 
 **A powerful, professional-grade media intelligence toolkit for deep metadata analysis.**
 
 Analyze **images, videos, and audio** — inspect metadata, detect anomalies, calculate hashes, analyze colors, inspect streams, and export detailed reports.
 
-</p>
+</div>
 
 ---
 
-## 🌌 What is CYBERASISTENT?
+<div align="center">
+
+<img src="https://readme-typing-svg.demolab.com?font=Orbitron&size=24&pause=900&color=00FFFF&center=true&vCenter=true&width=800&lines=MEDIA+INTELLIGENCE+ENGINE;DIGITAL+FORENSICS+TOOLKIT;METADATA+ANALYSIS;SECURITY+RESEARCH;SEE+BEYOND+THE+PIXELS" />
+
+</div>
+
+---
+
+# 🌌 WHAT IS CYBERASISTENT?
 
 **CYBERASISTENT** is a powerful Python-based **Media Metadata Intelligence Tool** designed to go beyond basic file information.
 
 It combines:
 
 ```text
-┌──────────────────────────────────────────────────────────────┐
-│                      CYBERASISTENT                           │
-│                                                              │
-│   📷 IMAGE        🎬 VIDEO        🎵 AUDIO        🔐 SECURITY │
-│      │               │               │               │       │
-│      └───────────────┴───────────────┴───────────────┘       │
-│                              │                               │
-│                       🧠 ANALYSIS ENGINE                    │
-│                              │                               │
-│                📊 JSON / CSV INTELLIGENCE                   │
-└──────────────────────────────────────────────────────────────┘
-```
+╔══════════════════════════════════════════════════════════════╗
+║                     🧠 CYBERASISTENT                        ║
+║                  MEDIA INTELLIGENCE CORE                    ║
+╠══════════════════════════════════════════════════════════════╣
+║                                                              ║
+║   📷 IMAGE       🎬 VIDEO       🎵 AUDIO       🔐 SECURITY   ║
+║      │              │              │              │          ║
+║      └──────────────┴──────────────┴──────────────┘          ║
+║                         │                                    ║
+║                         ▼                                    ║
+║                ⚡ ANALYSIS ENGINE                            ║
+║                         │                                    ║
+║              ┌──────────┴──────────┐                         ║
+║              ▼                     ▼                         ║
+║        🔍 INTELLIGENCE       🛡️ SECURITY                     ║
+║              │                     │                         ║
+║              └──────────┬──────────┘                         ║
+║                         ▼                                    ║
+║                  📊 JSON / CSV                               ║
+╚══════════════════════════════════════════════════════════════╝
+⚡ CORE CAPABILITIES
+<div align="center">
+🧠 INTELLIGENCE	⚡ CAPABILITY
+🔍	Deep Metadata Extraction
+🛰️	GPS & Location Analysis
+🎨	Advanced Color Intelligence
+🕵️	Steganography Heuristics
+🎬	Video Stream Inspection
+🎵	Audio Metadata Analysis
+🛡️	File Signature Verification
+🔐	Cryptographic Hashing
+⚡	Parallel Directory Scanning
+📊	JSON & CSV Reporting
+</div>
+🧠 FEATURE MATRIX
+<table> <tr> <td width="50%">
+📷 IMAGE INTELLIGENCE
 
-### ⚡ Core Capabilities
+🔹 EXIF
+🔹 GPS
+🔹 ICC Profile
+🔹 DPI
+🔹 Dimensions
+🔹 Color Mode
+🔹 Transparency
 
-* 🔍 Deep metadata extraction
-* 🛰️ GPS & location metadata analysis
-* 🎨 Advanced color analysis
-* 🕵️ Steganography heuristics
-* 🎬 Video stream inspection
-* 🎵 Audio tag & waveform analysis
-* 🛡️ File signature verification
-* 🔐 Cryptographic hashing
-* ⚡ Parallel directory scanning
-* 📊 JSON & CSV reporting
+</td> <td width="50%">
+🛰️ GPS ANALYSIS
 
----
+📍 Latitude
+📍 Longitude
+📍 Altitude
+📍 Speed
+📍 Direction
+🌐 Google Maps URL
 
-# 🧠 Feature Matrix
+</td> </tr> <tr> <td>
+🎨 COLOR ANALYSIS
 
-| 🔥 Category               | ⚙️ Capabilities                                          |
-| ------------------------- | -------------------------------------------------------- |
-| 📷 **Image Intelligence** | EXIF, GPS, ICC, DPI, dimensions, color mode              |
-| 🛰️ **GPS Analysis**      | Latitude, longitude, altitude, speed, direction          |
-| 🎨 **Color Analysis**     | Dominant colors, average color, brightness, transparency |
-| 🕵️ **Steganography**     | LSB ratio, size anomalies, PNG chunk heuristics          |
-| 🎬 **Video Intelligence** | Codec, resolution, FPS, bitrate, HDR, streams, chapters  |
-| 🎵 **Audio Intelligence** | Duration, bitrate, sample rate, ID3/Vorbis/MP4 tags      |
-| 🛡️ **Security Analysis** | Magic bytes, MIME detection, extension mismatch          |
-| 🔐 **File Hashing**       | MD5, SHA1, SHA256                                        |
-| ⚡ **Performance**         | Configurable parallel directory scanning                 |
-| 📊 **Reporting**          | JSON & CSV export                                        |
+🌈 Dominant Colors
+🎨 Average Color
+💡 Brightness
+🏷️ Brightness Classification
+👻 Transparency
+🔢 HEX Colors
 
----
+</td> <td>
+🕵️ STEGANOGRAPHY
 
-# 📷 Image Intelligence
+🔬 LSB Ratio
+📦 File Size Anomaly
+🧩 PNG Chunk Analysis
+⚠️ Suspicion Score
+🚨 LOW / MEDIUM / HIGH
 
-CYBERASISTENT can extract detailed image metadata including:
+</td> </tr> <tr> <td>
+🎬 VIDEO INTELLIGENCE
 
-```text
+🎞️ Codec
+📐 Resolution
+🎥 FPS
+📊 Bitrate
+🌈 HDR
+🔀 Streams
+📚 Chapters
+
+</td> <td>
+🎵 AUDIO INTELLIGENCE
+
+⏱️ Duration
+📊 Bitrate
+🎚️ Sample Rate
+🏷️ ID3
+🏷️ Vorbis
+🏷️ MP4
+🌊 WAV Statistics
+
+</td> </tr> <tr> <td>
+🛡️ SECURITY
+
+🧱 Magic Bytes
+🔍 MIME Detection
+📁 Extension Check
+⚠️ Mismatch Detection
+
+</td> <td>
+🔐 HASHING
+
+🔴 MD5
+🟣 SHA1
+🔵 SHA256
+
+</td> </tr> </table>
+📷 IMAGE INTELLIGENCE
+
+CYBERASISTENT can extract detailed image metadata.
+
+                    🖼️ IMAGE
+                       │
+        ┌──────────────┼──────────────┐
+        ▼              ▼              ▼
+      EXIF             GPS          COLOR
+        │              │              │
+        ▼              ▼              ▼
+    Camera         Latitude       Average
+    Lens           Longitude      Dominant
+    Date           Altitude       Brightness
+    Software       Speed          Transparency
+    Orientation    Direction      HEX
+🔬 EXIF
 EXIF
- ├── Camera information
- ├── Date / Time
- ├── Lens information
- ├── Orientation
- ├── Software
- └── Other embedded metadata
-
+ ├── 📷 Camera Information
+ ├── 🕐 Date / Time
+ ├── 🔭 Lens Information
+ ├── 🔄 Orientation
+ ├── 💻 Software
+ └── 📦 Embedded Metadata
+🛰️ GPS
 GPS
- ├── Latitude
- ├── Longitude
- ├── Altitude
- ├── Speed
- └── Direction
-
-IMAGE
- ├── Resolution
- ├── DPI
- ├── Color Mode
- ├── ICC Profile
- └── Transparency
-```
+ ├── 📍 Latitude
+ ├── 📍 Longitude
+ ├── ⛰️ Altitude
+ ├── 🚗 Speed
+ └── 🧭 Direction
 
 GPS information can also be converted into a Google Maps location URL when coordinates are available.
 
----
-
-# 🎨 Color Intelligence
+🎨 COLOR INTELLIGENCE
 
 Analyze the visual characteristics of images.
 
-### Extracted information
-
-* 🌈 Dominant colors
-* 🎨 Average color
-* 💡 Brightness score
-* 🏷️ Brightness classification
-* 👻 Transparency percentage
-* 🔢 Color information in HEX format
-
-Example:
-
-```json
+🌈 Extracted Information
+╔════════════════════════════════════╗
+║          🎨 COLOR ENGINE           ║
+╠════════════════════════════════════╣
+║ 🌈 Dominant Colors                 ║
+║ 🎨 Average Color                   ║
+║ 💡 Brightness Score                ║
+║ 🏷️ Brightness Classification       ║
+║ 👻 Transparency Percentage         ║
+║ 🔢 HEX Color Information           ║
+╚════════════════════════════════════╝
+Example
 {
   "average_color_hex": "#a3b2c1",
   "brightness": 0.712,
@@ -131,303 +216,205 @@ Example:
     }
   ]
 }
-```
-
----
-
-# 🕵️ Steganography Heuristics
+🕵️ STEGANOGRAPHY HEURISTICS
 
 CYBERASISTENT includes lightweight heuristic checks that can flag files for further investigation.
 
-### 🔎 Detection Signals
+                 🕵️ STEGO ENGINE
+                       │
+                       ▼
+                 LSB ANALYSIS
+                       │
+                       ▼
+               FILE SIZE CHECK
+                       │
+                       ▼
+              PNG CHUNK ANALYSIS
+                       │
+                       ▼
+                SUSPICION SCORE
+                       │
+          ┌────────────┼────────────┐
+          ▼            ▼            ▼
+        🟢 LOW      🟡 MEDIUM     🔴 HIGH
 
-```text
-LSB Analysis
-      │
-      ▼
-File Size Anomaly
-      │
-      ▼
-PNG Chunk Analysis
-      │
-      ▼
-Suspicion Score
-      │
-      ▼
-LOW / MEDIUM / HIGH
-```
+⚠️ These checks are heuristics, not proof that steganography is present.
 
-> ⚠️ These checks are **heuristics**, not proof that steganography is present. Suspicious files should be investigated with dedicated forensic tools.
-
----
-
-# 🎬 Video Intelligence
+🎬 VIDEO INTELLIGENCE
 
 Analyze video containers and streams in depth.
 
-### Extracts
-
-* 🎞️ Codec
-* 📐 Resolution
-* 🎥 FPS
-* 📊 Bitrate
-* 🌈 HDR information
-* 🔀 All available streams
-* 📚 Chapters
-* 📦 Container information
+🎬 VIDEO
+   │
+   ├── 🎞️ Codec
+   ├── 📐 Resolution
+   ├── 🎥 FPS
+   ├── 📊 Bitrate
+   ├── 🌈 HDR
+   ├── 🔀 Streams
+   ├── 📚 Chapters
+   └── 📦 Container
 
 Useful for quickly understanding the technical structure of media files.
 
----
+🎵 AUDIO INTELLIGENCE
+🎵 AUDIO
+   │
+   ├── ⏱️ Duration
+   ├── 📊 Bitrate
+   ├── 🎚️ Sample Rate
+   ├── 🏷️ ID3 Tags
+   ├── 🏷️ Vorbis Comments
+   ├── 🏷️ MP4 Metadata
+   └── 🌊 WAV Statistics
+🛡️ SECURITY & FILE INTEGRITY
 
-# 🎵 Audio Intelligence
+CYBERASISTENT checks the difference between what a file claims to be and what its internal signature indicates.
 
-Analyze common audio metadata and technical properties.
-
-### Supported analysis includes
-
-* ⏱️ Duration
-* 📊 Bitrate
-* 🎚️ Sample rate
-* 🏷️ ID3 tags
-* 🏷️ Vorbis comments
-* 🏷️ MP4 metadata
-* 🌊 WAV waveform statistics
-
----
-
-# 🛡️ Security & File Integrity
-
-CYBERASISTENT checks the difference between what a file **claims to be** and what its internal signature indicates.
-
-### Example
-
-```text
-filename.jpg
-     │
-     ▼
-Extension Check
-     │
-     ▼
-Magic Bytes
-     │
-     ▼
-MIME Guess
-     │
-     ▼
-Integrity Analysis
-```
-
-This can help identify situations such as:
-
-```text
-photo.jpg
-   ↓
-Internal signature → PNG
-
-⚠️ Extension mismatch detected
-```
-
----
-
-# 🔐 Cryptographic Hashes
-
-Every analyzed file can generate:
-
-```text
-MD5
-SHA1
-SHA256
-```
+             📄 filename.jpg
+                    │
+                    ▼
+             🔎 EXTENSION CHECK
+                    │
+                    ▼
+               🧱 MAGIC BYTES
+                    │
+                    ▼
+               🌐 MIME GUESS
+                    │
+                    ▼
+             🛡️ INTEGRITY CHECK
+                    │
+            ┌───────┴───────┐
+            ▼               ▼
+          MATCH          MISMATCH
+            │               │
+            ▼               ▼
+          🟢 SAFE       🔴 ALERT
 
 Example:
 
-```json
+photo.jpg
+    │
+    ▼
+Internal Signature → PNG
+
+⚠️ EXTENSION MISMATCH DETECTED
+🔐 CRYPTOGRAPHIC HASHES
+
+Every analyzed file can generate:
+
+🔴 MD5
+🟣 SHA1
+🔵 SHA256
+
+Example:
+
 "hashes": {
   "md5": "...",
   "sha1": "...",
   "sha256": "..."
 }
-```
 
-Hashes can be useful for:
+Useful for:
 
-* File identification
-* Integrity verification
-* Duplicate detection
-* Digital investigations
-* Evidence tracking
-
----
-
-# ⚡ Parallel Scanning Engine
+🔎 File identification
+🛡️ Integrity verification
+♻️ Duplicate detection
+🧪 Digital investigations
+📋 Evidence tracking
+⚡ PARALLEL SCANNING ENGINE
 
 Need to analyze hundreds or thousands of files?
 
 CYBERASISTENT supports configurable parallel processing.
 
-```bash
 python main.py ./media --dir -r -w 8
-```
-
-Architecture:
-
-```text
-                 MEDIA DIRECTORY
-                       │
-          ┌────────────┼────────────┐
-          ▼            ▼            ▼
-       Worker 1     Worker 2     Worker 3
-          │            │            │
-          └────────────┼────────────┘
-                       ▼
-                 ANALYSIS ENGINE
-                       │
-                 ┌─────┴─────┐
-                 ▼           ▼
-               JSON         CSV
-```
-
----
-
-# 📊 Export Intelligence
-
-Export analysis results into machine-readable reports.
-
-### JSON
+🧬 Architecture
+                    📁 MEDIA DIRECTORY
+                           │
+          ┌────────────────┼────────────────┐
+          ▼                ▼                ▼
+      ⚡ WORKER 1       ⚡ WORKER 2       ⚡ WORKER 3
+          │                │                │
+          └────────────────┼────────────────┘
+                           ▼
+                   🧠 ANALYSIS ENGINE
+                           │
+                  ┌────────┴────────┐
+                  ▼                 ▼
+               📄 JSON            📊 CSV
+📊 EXPORT INTELLIGENCE
+📄 JSON
 
 Perfect for:
 
-* Automation
-* APIs
-* Data processing
-* Security pipelines
-
-### CSV
+Automation
+APIs
+Data processing
+Security pipelines
+📊 CSV
 
 Perfect for:
 
-* Spreadsheets
-* Bulk analysis
-* Reports
-* Investigations
-
----
-
-# 🚀 Installation
-
-### 1️⃣ Clone the project
-
-```bash
+Spreadsheets
+Bulk analysis
+Reports
+Investigations
+🚀 INSTALLATION
+1️⃣ Clone the Project
 git clone <YOUR_REPOSITORY_URL>
 cd cyberasistent
-```
-
-### 2️⃣ Install Python dependencies
-
-```bash
+2️⃣ Install Python Dependencies
 pip install -r requirements.txt
-```
+3️⃣ Install MediaInfo
 
-### 3️⃣ Install MediaInfo
+pymediainfo requires the native libmediainfo library.
 
-`pymediainfo` requires the native **libmediainfo** library.
-
-### 🐧 Debian / Ubuntu / Parrot OS
-
-```bash
+🐧 Debian / Ubuntu / Parrot OS
 sudo apt update
 sudo apt install libmediainfo0v5
-```
-
-### 🍎 macOS
-
-```bash
+🍎 macOS
 brew install libmediainfo
-```
-
-### 🪟 Windows
+🪟 Windows
 
 Install MediaInfo from the official MediaArea distribution.
 
----
-
-# 💻 Usage
-
-## 📷 Analyze a Single Image
-
-```bash
+💻 USAGE
+📷 Analyze a Single Image
 python main.py photo.jpg
-```
-
----
-
-## 🎬 Analyze a Video & Export JSON
-
-```bash
+🎬 Analyze Video & Export JSON
 python main.py video.mp4 -o result.json
-```
-
----
-
-## 📁 Scan a Directory & Export CSV
-
-```bash
+📁 Scan Directory & Export CSV
 python main.py ./media --dir --csv report.csv
-```
-
----
-
-## ⚡ Recursive Scan with 8 Workers
-
-```bash
+⚡ Recursive Scan with 8 Workers
 python main.py ./media --dir -r -w 8
-```
-
----
-
-## 🤫 Quiet Mode
-
-Output JSON only without status messages:
-
-```bash
+🤫 Quiet Mode
 python main.py photo.jpg --quiet
-```
-
----
-
-# 📂 Project Structure
-
-```text
+📂 PROJECT STRUCTURE
 cyberasistent/
 │
-├── main.py
-├── requirements.txt
-├── README.md
+├── 🧠 main.py
+├── 📦 requirements.txt
+├── 📄 README.md
 │
-└── media_extractor/
+└── 📁 media_extractor/
     │
-    ├── analyzer.py
+    ├── 🔍 analyzer.py
     │   └── Dispatcher + parallel engine + CSV
     │
-    ├── image.py
+    ├── 🖼️ image.py
     │   └── EXIF + GPS + color + steganography
     │
-    ├── video.py
+    ├── 🎬 video.py
     │   └── Codec + HDR + streams + chapters
     │
-    ├── audio.py
+    ├── 🎵 audio.py
     │   └── Tags + waveform statistics
     │
-    └── utils.py
+    └── 🛠️ utils.py
         └── Hashes + magic bytes + anomaly detection
-```
-
----
-
-# 🧪 Example Output
-
-```json
+🧪 EXAMPLE OUTPUT
 {
   "media_type": "image",
 
@@ -487,109 +474,171 @@ cyberasistent/
     }
   }
 }
-```
-
----
-
-# 🎯 Use Cases
-
-CYBERASISTENT can be useful for:
-
-```text
-🔎 Digital Forensics
-🛡️ Security Analysis
-📸 Image Investigation
-🎬 Media Investigation
-🎵 Audio Analysis
-🧪 File Research
-📊 Bulk Media Analysis
-🔐 File Integrity Verification
-```
+🎯 USE CASES
+<div align="center">
+🔥 FIELD	🧠 USE
+🔎	Digital Forensics
+🛡️	Security Analysis
+📸	Image Investigation
+🎬	Media Investigation
+🎵	Audio Analysis
+🧪	File Research
+📊	Bulk Media Analysis
+🔐	File Integrity Verification
+</div>
 
 Use it only on media you own or are authorized to analyze.
 
----
+🧩 TECHNOLOGY STACK
+                         🐍 PYTHON
+                             │
+              ┌──────────────┼──────────────┐
+              ▼              ▼              ▼
+          🖼️ PILLOW      🎬 MEDIAINFO     🔐 HASHING
+              │              │              │
+              └──────────────┼──────────────┘
+                             ▼
+                    🧠 ANALYSIS ENGINE
+                             │
+                 ┌───────────┴───────────┐
+                 ▼                       ▼
+          🧱 FILE SIGNATURE       ⚡ PARALLEL
+              ANALYSIS             PROCESSING
+🌐 SYSTEM ARCHITECTURE
+                 ╔══════════════════════╗
+                 ║     👤 USER INPUT    ║
+                 ╚══════════╤═══════════╝
+                            │
+                            ▼
+                 ╔══════════════════════╗
+                 ║      MAIN.PY CLI     ║
+                 ╚══════════╤═══════════╝
+                            │
+                            ▼
+                 ╔══════════════════════╗
+                 ║   🧠 ANALYSIS CORE   ║
+                 ╚══════════╤═══════════╝
+                            │
+          ┌─────────────────┼─────────────────┐
+          ▼                 ▼                 ▼
+      📷 IMAGE           🎬 VIDEO           🎵 AUDIO
+          │                 │                 │
+          └─────────────────┼─────────────────┘
+                            ▼
+                 ╔══════════════════════╗
+                 ║ 🛡️ SECURITY ENGINE  ║
+                 ╚══════════╤═══════════╝
+                            │
+                            ▼
+                 ╔══════════════════════╗
+                 ║  📊 JSON / CSV DATA  ║
+                 ╚══════════════════════╝
+🔥 DIGITAL INTELLIGENCE FLOW
+       📁 FILE
+         │
+         ▼
+   🔍 IDENTIFICATION
+         │
+         ▼
+   🧬 METADATA
+         │
+    ┌────┼────┐
+    ▼    ▼    ▼
+   📍   🎨   🔐
+   GPS COLOR HASH
+    │    │    │
+    └────┼────┘
+         ▼
+     🕵️ STEGO
+         │
+         ▼
+   🛡️ SECURITY
+         │
+         ▼
+    📊 REPORT
+📈 INTELLIGENCE LAYERS
+╔════════════════════════════════════════════╗
+║              CYBERASISTENT                 ║
+╠════════════════════════════════════════════╣
+║                                            ║
+║  LAYER 01  → 📁 FILE INTELLIGENCE          ║
+║  LAYER 02  → 🧬 METADATA INTELLIGENCE      ║
+║  LAYER 03  → 📍 LOCATION INTELLIGENCE      ║
+║  LAYER 04  → 🎨 VISUAL INTELLIGENCE        ║
+║  LAYER 05  → 🕵️ STEGO INTELLIGENCE         ║
+║  LAYER 06  → 🛡️ SECURITY INTELLIGENCE     ║
+║  LAYER 07  → 📊 REPORTING INTELLIGENCE     ║
+║                                            ║
+╚════════════════════════════════════════════╝
+🔮 FUTURE ROADMAP
+╔════════════════════════════════════════════╗
+║              🚀 ROADMAP                    ║
+╠════════════════════════════════════════════╣
+║                                            ║
+║ [✓] EXIF Extraction                        ║
+║ [✓] GPS Intelligence                       ║
+║ [✓] Hash Generation                        ║
+║ [✓] Color Analysis                         ║
+║ [✓] File Signature Verification            ║
+║ [✓] Video Metadata                         ║
+║ [✓] Audio Metadata                         ║
+║ [✓] Stego Heuristics                       ║
+║ [✓] JSON / CSV Reporting                   ║
+║ [✓] Parallel Scanning                      ║
+║                                            ║
+║ [ ] AI-Based Media Classification          ║
+║ [ ] Advanced Steganography Detection       ║
+║ [ ] Web Dashboard                          ║
+║ [ ] Timeline Analysis                      ║
+║ [ ] Automatic Geolocation Mapping           ║
+║ [ ] YARA Integration                       ║
+║ [ ] Threat Intelligence Integration        ║
+║ [ ] PDF Forensic Reports                   ║
+║                                            ║
+╚════════════════════════════════════════════╝
+🧠 PROJECT PHILOSOPHY
+<div align="center">
+"EVERY FILE HAS A STORY."
+🔍 CYBERASISTENT HELPS YOU READ ITS DIGITAL FOOTPRINT.
+</div>
+        SEE THE FILE
+             ↓
+        READ THE DATA
+             ↓
+      UNDERSTAND THE SIGNAL
+             ↓
+       VERIFY THE FILE
+             ↓
+      DISCOVER THE FOOTPRINT
+⚠️ DISCLAIMER
 
-# 🧩 Technology Stack
-
-```text
-🐍 Python
-│
-├── Pillow
-├── PyMediaInfo
-├── Color Analysis
-├── Hashing
-├── File Signature Analysis
-└── Parallel Processing
-```
-
----
-
-# 🌐 Architecture
-
-```text
-                 ┌───────────────────┐
-                 │     USER INPUT    │
-                 └─────────┬─────────┘
-                           │
-                           ▼
-                 ┌───────────────────┐
-                 │    MAIN.PY CLI    │
-                 └─────────┬─────────┘
-                           │
-                           ▼
-                 ┌───────────────────┐
-                 │  ANALYSIS ENGINE  │
-                 └─────────┬─────────┘
-                           │
-          ┌────────────────┼────────────────┐
-          ▼                ▼                ▼
-      📷 IMAGE          🎬 VIDEO          🎵 AUDIO
-          │                │                │
-          └────────────────┼────────────────┘
-                           ▼
-                 ┌───────────────────┐
-                 │ SECURITY ANALYSIS │
-                 └─────────┬─────────┘
-                           │
-                           ▼
-                 ┌───────────────────┐
-                 │  JSON / CSV DATA  │
-                 └───────────────────┘
-```
-
----
-
-# ⚠️ Disclaimer
-
-**CYBERASISTENT is intended for legitimate security research, digital forensics, file analysis, and authorized investigations.**
+CYBERASISTENT is intended for legitimate security research, digital forensics, file analysis, and authorized investigations.
 
 Do not use this tool to access, analyze, or investigate media or data without appropriate authorization.
 
-The steganography detection module provides **heuristic indicators only** and should not be treated as definitive proof of hidden data.
+The steganography detection module provides heuristic indicators only and should not be treated as definitive proof of hidden data.
 
----
+👨‍💻 CREATOR
+<div align="center"> <img src="https://capsule-render.vercel.app/api?type=soft&color=0:ff003c,50:7b2cff,100:00ffff&height=120&section=header&text=ARUP%20HALDER&fontSize=42&fontColor=ffffff&animation=twinkling" width="80%"/>
+🛡️ Cybersecurity • Digital Forensics • Python • Security Research
+<br> <a href="https://github.com/rootNyx404"> <img src="https://img.shields.io/badge/GitHub-rootNyx404-181717?style=for-the-badge&logo=github&logoColor=white"> </a> </div>
+⭐ SUPPORT THE PROJECT
+<div align="center">
+If CYBERASISTENT helped you, consider giving the project a ⭐
+<img src="https://img.shields.io/badge/⭐-STAR%20THE%20REPOSITORY-FFD700?style=for-the-badge">
 
-# ⭐ Project Philosophy
+<br><br>
 
-> **"Every file has a story. CYBERASISTENT helps you read its digital footprint."**
+🧠 ANALYZE
+🔍 EXTRACT
+🛡️ VERIFY
+⚡ INVESTIGATE
+</div>
+<div align="center"> <img src="https://capsule-render.vercel.app/api?type=waving&color=0:00ff88,20:00ffff,40:0066ff,60:7b2cff,80:ff00ff,100:ff0033&height=180&section=footer&animation=twinkling"/>
+🧬 CYBERASISTENT
 
----
+Media Metadata Intelligence • Digital Forensics • Security Research
 
-<p align="center">
+<sub>Built for cybersecurity research, digital forensics & media intelligence.</sub>
 
-### 🧠 Analyze the File.
-
-### 🔍 Understand the Metadata.
-
-### 🛡️ Investigate the Digital Footprint.
-
-**CYBERASISTENT**
-
-</p>
-
----
-
-<p align="center">
-  <sub>Built for cybersecurity research, digital forensics & media intelligence.</sub>
-</p>
+</div> ```
